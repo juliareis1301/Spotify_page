@@ -1,0 +1,86 @@
+
+.information {
+  padding: 25px;
+}
+.title {
+  font-size: 40px;
+  line-height: 1.2;
+  max-width: 100%;
+  font-weight: 900;
+}
+.description {
+  width: auto;
+  margin: 30px 0px;
+  line-height: 1.5;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.promotion{
+  background-color: #191414;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 14px 32px;
+  border-radius: 30px;
+  border: 2px solid rgb(25, 20, 20);
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.promotion:hover {
+  transform: scale(1.05);
+  transition: transform 0.1s ease-out;
+  background-color: black;
+}
+.plans {
+  background-color: transparent;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 14px 32px;
+  border-radius: 30px;
+  border: 2px solid white;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.plans:hover {
+  transform: scale(1.05);
+  transition: transform 0.1s ease-out;
+  background-color: #8C1F79;
+}
+
+
+.premium {
+  padding: 60px 35px;
+}
+
+
+.terms {
+  font-size: 0.6875rem;
+  line-height: 1rem;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+@media screen and (max-width:768px){
+  .plans{
+    padding: 14px 132px;
+  }
+
+  .promotion{
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+}
+
+@media screen and (max-width:500px) {
+  .premium{
+    padding: 5px 17px;
+  }
+}
