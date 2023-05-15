@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Menu.css';
-import { GiHamburgerMenu } from 'react-icons/gi';
+import { BiMenu } from 'react-icons/bi';
 import { FaTimes } from 'react-icons/fa';
 
 function Menu() {
@@ -13,7 +13,7 @@ function Menu() {
   return (
     <div className='Menu'>
       <button className='menu-toggle' onClick={handleMenuCLick}></button>
-      {showMenu ? <FaTimes className='close-icon' /> : <GiHamburgerMenu className='open-icon' />}
+      {showMenu ? <FaTimes className='close-icon' /> : <BiMenu className='open-icon' />}
       <ul className={`options ${showMenu ? 'show' : ''}`}>
         <li>Premium</li>
         <li>Suporte</li>
